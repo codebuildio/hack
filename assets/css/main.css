@@ -215,7 +215,7 @@ ul li, ol li {
 .inner-title {
   font-size: 24px;
   font-weight: 700;
-  text-tranform: capitalize;
+  text-transform: capitalize;
 }
 
 .page-tagline {
@@ -1328,7 +1328,15 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #f3f4f3;
   position: relative;
 }
-
+.img-thumb2{
+  margin-left: 5%;
+  width: 90%;
+  height: 40vh;
+  background-size: cover; 
+}
+.img-thumb2::after{
+  /* background: var(--theme-col2) !important; */
+}
 #gallery .gallery-box {
   position: relative;
   margin-bottom: 30px;
