@@ -16,6 +16,10 @@
 
             --theme-col: #007bff;
             --theme-col2: rgba(0, 123, 255, 0.5);
+            
+            --acme-font:  'Acme',sans-serif;
+            --myfont:  sans-serif;
+
 }
 
 
@@ -46,10 +50,12 @@ h1, h2, h3, h4 {
   font-weight: 700;
   font-family: 'Francois One', sans-serif;
   font-family: 'Patua One', sans-serif;
+  /* font-family: var(--myfont); */
   letter-spacing: .15rem;
 }
 h1{
             font-family: 'Acme', sans-serif;
+            /* font-family: var(--myfont);             */
             /* font-family: 'Carter One', sans-serif; */
             /* font-family: 'Boogaloo', sans-serif; */
 }
@@ -60,6 +66,7 @@ a {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
             font-family: 'Righteous', sans-serif;
+
 }
 
 a:hover {
@@ -72,10 +79,13 @@ a a:focus {
 
 p {
   font-weight: 400;
-  font-family: 'Acme', sans-serif;
+  /* font-family: 'Acme', sans-serif; */
   margin: 0px;
   font-size: 15px;
-  letter-spacing: .1rem;
+  /* letter-spacing: .1rem; */
+  /* font-family: var(--myfont); */
+  font-family: 'Lato', sans-serif; 
+  font-weight: bold !important;
 }
 
 ul, ol {
