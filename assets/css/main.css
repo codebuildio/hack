@@ -1795,7 +1795,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   letter-spacing: .1rem;
 }
 
-btn{
+.btn{
             font-size:15px;
             letter-spacing: .1rem;
 }
@@ -1893,8 +1893,8 @@ btn{
   background: #3B5998;
 }
 
-.footer-area .footer-social li .twitter:hover {
-  background: #00aced;
+.footer-area .footer-social li .instagram:hover {
+  background: #e4405f;
 }
 
 .footer-area .footer-social li .linkedin:hover {
